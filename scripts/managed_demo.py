@@ -1,0 +1,1 @@
+# SQLAlchemy+pandas against managed MySQL
