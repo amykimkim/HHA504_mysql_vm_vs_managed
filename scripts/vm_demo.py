@@ -66,7 +66,7 @@ df = pd.DataFrame(
     ]
 )
 
-df.to_sql(table_name, con=engine, if_exists="replace", index=False, connect_args={"ssl": {"ssl_disabled": True}})
+df.to_sql(table_name, con=engine, if_exists="replace", index=False)
 
 # --- 4) Read back a quick check ---
 print("[STEP 4] Reading back row count ...")
