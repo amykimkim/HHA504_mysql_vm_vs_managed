@@ -33,4 +33,6 @@ and changed bind-address to 0.0.0.0 and saved. Next, I restarted SSH for the cha
 ```
 /etc/init.d/mysql restart
 ``` 
-6. Went into VS code to set up .py file to run and insert data. Ran into issues here when running the code given by professor Hants. 
+6. Went into VS code to set up .py file to run and insert data. Ran into issues here when running the code given by professor Hants. Same issue that he ran into during class demonstration (time stamp 21:00 on November 3rd)
+
+7. Went office hours and after deleting ``` ?ssl=false ``` from line 30 and running the entire python script resolved the issue. I was running small chunks of code together (few lines) but it didn't always work because certain lines of code need referenced to one another when running to be successful.
