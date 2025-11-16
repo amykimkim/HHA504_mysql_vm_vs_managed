@@ -1,4 +1,10 @@
-Ordered steps you executed, with command snippets
-Any config files you edited (e.g., mysqld.cnf), with the exact lines
-Troubles you hit and how you solved them
-Start-to-finish elapsed time (minutes) measured by you
+
+Region: us-central1 (Iowa)
+
+Code would not run and gave error message:
+"sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '34.59.233.219' (timed out)")"
+
+Troubleshooting:
+I tried to ping 34.59.233.219 on my terminal which was successful
+Verified I configured to allow incoming connections on port 3306
+Used public IP
