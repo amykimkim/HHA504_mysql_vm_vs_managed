@@ -1,6 +1,4 @@
-# timing & difficulty comparison
-A short paragraph on which you would choose in production and why
-Write approximately 200-400 words concluding which you’d choose in production for: (a) a small student app; (b) a departmental analytics DB; (c) a HIPAA-aligned workload (assume a BAA is available in your cloud).
+# Timing & difficulty comparison
 
 For a production environment, I would personally choose Managed Cloud SQL. As a beginner, I appreciate that setup is straightforward, updates are automatic, and Google handles essential tasks like maintenance, backups, scaling, and certificate management. If I don’t need detailed control over the MySQL schema, the convenience of a managed service is more valuable. The managed database took me less than an hour to create, whereas setting up a VM required several additional steps before I could even begin creating the database.
 
